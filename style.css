@@ -77,3 +77,84 @@ body{
   .hero-image img{
     padding-top: 28px;
   }
+
+  /* Card part CSS */
+  #card{
+    margin: 0px 10%;
+  }
+  .card-heading h1{
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .card-container{
+    display: flex;
+    justify-content: center;
+    padding-top:29px;
+    gap: 24px;
+  }
+  /* container 1 css */
+  .card-container1{
+    padding: 24px;
+    background-color: white;
+    border: none;
+    border-radius: 14px;
+  }
+  .card-container1 h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+  .card-container1 p{
+    font-size: 14px;
+  }
+
+  /* container 2 css */
+  .card-container2{
+    padding: 24px;
+    background-color: white;
+    border: none;
+    border-radius: 14px;
+  }
+  .card-container2 h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+  .card-container2 p{
+    font-size: 14px;
+  }
+
+  /* container 3 css */
+  .card-container3{
+    padding: 24px;
+    background-color: white;
+    border: none;
+    border-radius: 14px;
+  }
+  .card-container3 h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+  .card-container3 p{
+    font-size: 14px;
+  }
+  /* card container 3 css */
+  .card-container4{
+    padding: 24px;
+    background-color: white;
+    border: none;
+    border-radius: 14px;
+  }
+  .card-container4 h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+  .card-container4 p{
+    font-size: 14px;
+  }
