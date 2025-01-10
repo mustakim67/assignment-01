@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(240, 237, 237);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 21.6px 10%;
+}
+  .brand-heading{
+    font-size:29px ;
+    font-weight: bold;
+    color: #0E1322;
+  }
+
+  .sign-in-button button{
+    color: #006A50;
+    padding: 13.5px 27px;
+    font-size: 16.2px;
+    font-weight:600 ;
+    border-radius: 7.2px;
+    border: 1px solid #006A50;
+  }
+
+  /* hero section */
+  #hero{
+    margin:30px 144px 72px 144px;
+    padding:72px 54px;
+    background-color:#C6E4D6;
+    border:none;
+    border-radius: 21.6px;
+    height: 504px;
+  }
+  .hero-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:45.6px
+  }
+  .hero-details{
+    padding-top: 20px;
+  }
+  .hero-details h3{
+    font-size:21.6px ;
+    font-weight:500 ;
+    color:#0E0E0E ;
+    margin-bottom: 14.4px;
+  }
+  .hero-details h1{
+    font-size:45.4px ;
+    font-weight:bold;
+    color:#0E0E0E ;
+    margin-bottom: 25px;
+  }
+  .hero-details button{
+    background-color: #006A50;
+    color: white;
+    font-size: 16.2px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 15.3px 30.6px;
+    border: none;
+    border-radius: 7.2px;
+  }
+  .hero-image img{
+    padding-top: 28px;
+  }
