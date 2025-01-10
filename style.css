@@ -90,6 +90,7 @@ body{
     display: flex;
     justify-content: center;
     padding-top:29px;
+    margin-bottom: 80px;
     gap: 24px;
   }
   /* container 1 css */
@@ -157,4 +158,76 @@ body{
   }
   .card-container4 p{
     font-size: 14px;
+  }
+
+  /* vision container */
+  #vision{
+    margin: 0px 10%;
+  }
+  .vision-heading h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 19px;
+  }
+  .vision-heading-details p{
+    font-size: 14px;
+    margin-bottom: 29px;
+  }
+  .vision-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+  }
+  .learn-more{
+    padding: 10px 20px;
+    background-color: rgb(59, 136, 224);
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  .vision-container1{
+    background-color:#c6dbff;
+    border: none;
+    border-radius: 14px;
+    padding: 19px;
+  }
+  .vision-container1 h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 21px 0px 10px 0px;
+  }
+  .vision-container1 p{
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  .vision-container2{
+    background-color:#C6E4D6;
+    border: none;
+    border-radius: 14px;
+    padding: 19px;
+  }
+  .vision-container2 h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 21px 0px 10px 0px;
+  }
+  .vision-container2 p{
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  .vision-container3{
+    background-color:#F7EBCF;
+    border: none;
+    border-radius: 14px;
+    padding: 19px;
+  }
+  .vision-container3 h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 21px 0px 10px 0px;
+  }
+  .vision-container3 p{
+    font-size: 16px;
+    margin-bottom: 24px;
   }
