@@ -179,13 +179,28 @@ body{
     align-items: center;
     gap: 24px;
   }
-  .learn-more{
+  .learn-more1{
     padding: 10px 20px;
     background-color: rgb(59, 136, 224);
     color: white;
     border: none;
     border-radius: 10px;
   }
+  .learn-more2{
+    padding: 10px 20px;
+    background-color: #09A15C;
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  .learn-more3{
+    padding: 10px 20px;
+    background-color: #FFC239;
+    color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  /* vision container 1 */
   .vision-container1{
     background-color:#c6dbff;
     border: none;
@@ -201,6 +216,7 @@ body{
     font-size: 16px;
     margin-bottom: 24px;
   }
+   /* vision container 2 */
   .vision-container2{
     background-color:#C6E4D6;
     border: none;
@@ -216,6 +232,7 @@ body{
     font-size: 16px;
     margin-bottom: 24px;
   }
+   /* vision container 3 */
   .vision-container3{
     background-color:#F7EBCF;
     border: none;
@@ -231,3 +248,33 @@ body{
     font-size: 16px;
     margin-bottom: 24px;
   }
+
+  /* Qoutation part css */
+  #quotation{
+    margin: 40px 10% 72px 10%;
+    padding: 24px 48px;
+    background-color: white;
+    border: 1px solid rgba(179, 178, 178, 0.404);
+    border-radius: 16px;
+  }
+  .quotation-container{
+   background-image: url("./assets/quote-bg.png");
+   background-repeat: no-repeat;
+   background-position: left top;
+  }
+  .quotation-details p{
+    font-size: 16px;
+    padding-top: 25px;
+   padding-left: 3px;
+   line-height: 25px;
+  }
+ .quotation-container h2{
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-weight: 600;
+ }
+ .quotation-container p{
+  font-size: 16px;
+  margin-bottom: 34px;
+
+ }
