@@ -331,7 +331,7 @@ select option{
 
 /* recent News CSS */
 #recent-news{
-  margin: 0px 10% 72px 10%; ;
+  margin: 0px 10% 72px 10%;
 }
 .news-container-heading > h1{
   font-size:38px ;
@@ -341,6 +341,7 @@ select option{
 #recent-news p{
   font-size:14px ;
   margin-bottom: 29px;
+  text-align: justify;
 }
 .news-container{
   display: flex;
@@ -360,6 +361,7 @@ select option{
 }
 .news-details p{
   margin-top: 10px;
+  text-align: justify;
 }
 .news-container time{
   margin-right: 5px;
@@ -371,4 +373,68 @@ select option{
  border-radius: 15px;
  margin-top: 12px;
  width: 380px;
+}
+
+/* Donate part CSS */
+#donate{
+  margin: 0px 10% 72px 10%;
+}
+#donate >h1,p{
+text-align: center;
+}
+#donate h1{
+  font-size: 37px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+#donate h2{
+  font-size: 37px;
+  font-weight: bold;
+}
+#donate p{
+  margin-bottom: 28px;
+}
+
+.donate-conatiner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+.donate-conatinerbox{
+  background-color: white;
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 27px;
+}
+.donate-conatinerbox:hover{
+  background-color: #cbf7cd;
+  transition: 0.3s ease;
+}
+
+.input-field input{
+margin:24px 110px;
+padding: 20px 350px;
+text-align: center;
+border: none;
+border-radius: 12px;
+background-color: white;
+}
+#donate button{
+  display: block;
+  margin: 0 auto;
+    padding: 15px 30px;
+    background-color: #09A15C;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#donate button:hover{
+  background-color: rgba(53, 56, 232, 0.653);
+  color: white;
+  transition:.3s ease;
 }
