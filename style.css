@@ -37,11 +37,13 @@ body {
   border-radius: 7.2px;
   border: 1px solid #006A50;
 }
-.sign-in-button button:hover{
-   background-color: rgba(53, 56, 232, 0.653);
+
+.sign-in-button button:hover {
+  background-color: rgba(53, 56, 232, 0.653);
   color: white;
   transition: .3s ease;
 }
+
 /* hero section */
 #hero {
   margin: 30px 144px 72px 144px;
@@ -87,11 +89,13 @@ body {
   border: none;
   border-radius: 7.2px;
 }
-.hero-details button:hover{
+
+.hero-details button:hover {
   background-color: rgba(53, 56, 232, 0.653);
   color: white;
   transition: .3s ease;
 }
+
 .hero-image img {
   padding-top: 28px;
 }
@@ -134,6 +138,12 @@ body {
   text-align: left;
 }
 
+.card-container1:hover {
+  background-color: rgba(90, 92, 245, 0.653);
+  color: white;
+  transition: .3s ease;
+}
+
 /* container 2 css */
 .card-container2 {
   padding: 24px;
@@ -153,7 +163,11 @@ body {
   font-size: 14px;
   text-align: left;
 }
-
+.card-container2:hover {
+  background-color: rgba(90, 92, 245, 0.653);
+  color: white;
+  transition: .3s ease;
+}
 /* container 3 css */
 .card-container3 {
   padding: 24px;
@@ -173,7 +187,11 @@ body {
   font-size: 14px;
   text-align: left;
 }
-
+.card-container3:hover {
+  background-color: rgba(90, 92, 245, 0.653);
+  color: white;
+  transition: .3s ease;
+}
 /* card container 3 css */
 .card-container4 {
   padding: 24px;
@@ -193,7 +211,11 @@ body {
   font-size: 14px;
   text-align: left;
 }
-
+.card-container4:hover {
+  background-color: rgba(90, 92, 245, 0.653);
+  color: white;
+  transition: .3s ease;
+}
 /* vision container */
 #vision {
   margin: 0px 10%;
@@ -227,7 +249,8 @@ body {
   border: none;
   border-radius: 10px;
 }
-.learn-more1:hover{
+
+.learn-more1:hover {
   background-color: rgba(53, 56, 232, 0.653);
   color: white;
   transition: .3s ease;
@@ -240,7 +263,8 @@ body {
   border: none;
   border-radius: 10px;
 }
-.learn-more2:hover{
+
+.learn-more2:hover {
   background-color: rgba(53, 56, 232, 0.653);
   color: white;
   transition: .3s ease;
@@ -254,7 +278,8 @@ body {
   border: none;
   border-radius: 10px;
 }
-.learn-more3:hover{
+
+.learn-more3:hover {
   background-color: rgba(53, 56, 232, 0.653);
   color: white;
   transition: .3s ease;
@@ -507,8 +532,8 @@ p {
 }
 
 .donate-conatinerbox:hover {
-  background-color: rgba(53, 56, 232, 0.653);
-  color: white;
+  background-color: rgba(123, 255, 178, 0.653);
+  color: black;
   transition: .3s ease;
 }
 
@@ -583,14 +608,16 @@ p {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.input-part button:hover{
+
+.input-part button:hover {
   background-color: rgba(53, 56, 232, 0.653);
   color: white;
   transition: .3s ease;
 }
+
 /* Footer part CSS */
-#footer-part{
-  margin-top: 42px ;
+#footer-part {
+  margin-top: 42px;
   padding: 40px 0px;
   text-align: center;
   font-size: 20px;
@@ -598,9 +625,10 @@ p {
   background-color: white;
 }
 
-.footer-container{
+.footer-container {
   margin-top: 40px;
 }
-.footer-container img{
+
+.footer-container img {
   margin-right: 7px;
 }
