@@ -564,7 +564,7 @@ p {
 .input-part {
   display: flex;
   align-items: center;
-  margin-left: -40px;
+  justify-content: space-around;
 }
 
 .input-part input {
