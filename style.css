@@ -328,3 +328,47 @@ select{
 select option{
   padding:4px;
 }
+
+/* recent News CSS */
+#recent-news{
+  margin: 0px 10% 72px 10%; ;
+}
+.news-container-heading > h1{
+  font-size:38px ;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+#recent-news p{
+  font-size:14px ;
+  margin-bottom: 29px;
+}
+.news-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px;
+  margin-bottom: 24px;
+  gap: 30px;
+  background-color: white;
+  border-radius: 15px;
+  border:none ;
+}
+.news-details h1{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.news-details p{
+  margin-top: 10px;
+}
+.news-container time{
+  margin-right: 5px;
+  font-size: 14px;
+  color: #555;
+  padding-top: 17px 0px;
+}
+.satelite img{
+ border-radius: 15px;
+ margin-top: 12px;
+ width: 380px;
+}
