@@ -41,7 +41,7 @@ body{
     background-color:#C6E4D6;
     border:none;
     border-radius: 21.6px;
-    height: 504px;
+    height: 470px;
   }
   .hero-content{
     display: flex;
@@ -278,3 +278,53 @@ body{
   margin-bottom: 34px;
 
  }
+
+ /* Option table CSS */
+ #option-table{
+  margin: 0px 10% 72px 10%;
+ }
+ #option-table h2{
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 20px;
+ }
+ .table-container{
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid rgba(179, 178, 178, 0.404);
+ }
+ table{
+  width: 100%;
+  border-collapse: collapse;
+ }
+ .table-container thead{
+  background-color: #e7f9e8;
+ }
+
+ .table-container th{
+  border:1px solid #ddd;
+  padding:12px;
+  text-align: left;
+}
+.table-container td{
+  border:1px solid #ddd;
+  padding:12px;
+  text-align: left;
+}
+.table-container th{
+  font-size: 16px;
+  color: #555;
+}
+
+select{
+  padding: 8px;
+  width: 75%;
+  align-items: center;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+select option{
+  padding:4px;
+}
